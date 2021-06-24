@@ -1,0 +1,17 @@
+.card {
+  width: 90vw;
+  margin: 40px auto;
+  padding-bottom: 20px;
+  background-color: $desatured-blue;
+  border-radius: 10px;
+  text-align: center;
+  color: $transparent-wite;
+  figure {
+    width: inherit;
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: inherit;
+    }
+  }
+}

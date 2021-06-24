@@ -1,0 +1,28 @@
+// variables
+  //color:
+$dark-blue: hsl(233, 47%, 7%);
+$desatured-blue: hsl(244, 38%, 16%);
+$soft-violet: hsl(277, 64%, 61%);
+$white: hsl(0, 0%, 100%);
+$slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+$transparent-wite: hsla(0, 0%, 100%, 0.6);
+  //fonts:
+$fuente1: 'Inter', sans-serif;
+$fuente2: 'Lexend Deca', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $dark-blue;
+  font-size: 1.6rem;
+  font-family: $fuente2;
+}
+
+h2, h3 {
+  color: $white;
+}
