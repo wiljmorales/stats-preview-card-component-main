@@ -10,6 +10,12 @@ $transparent-wite: hsla(0, 0%, 100%, 0.6);
 $fuente1: 'Inter', sans-serif;
 $fuente2: 'Lexend Deca', sans-serif;
 
+//mixins
+
+@mixin responsive-desktop {
+  @media (min-width: 1440px) { @content }
+}
+
 * {
   padding: 0;
   margin: 0;

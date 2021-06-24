@@ -3,6 +3,9 @@
   font-family: $fuente1;
   text-align: center;
   margin: 25px 10PX;
+  @include responsive-desktop {
+    font-size: 4.5rem;
+  }
   span {
     color: $soft-violet;
   }

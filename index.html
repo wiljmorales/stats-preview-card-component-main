@@ -14,7 +14,10 @@
   <main>
     <div class="card">
       <figure>
-        <img src="./images/image-header-mobile.jpg" alt="hero image">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="./images/image-header-desktop.jpg">
+          <img src="./images/image-header-mobile.jpg" alt="hero image" srcset=>
+        </picture>
       </figure>
       <div class="card__content">
           <h2 class="card__content--title">Get <span>insights</span> that help your business grow.</h2>
